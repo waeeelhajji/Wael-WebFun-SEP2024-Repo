@@ -1,0 +1,67 @@
+/* Universal selector */
+/* * {
+    outline: 1px red dotted;
+} */
+
+/* selector [attribute="value"]{
+ } */
+ h1 {
+    color: aquamarine;
+}
+
+#special {
+    background-color: crimson;
+}
+
+.pizza {
+    background-color: chocolate;
+}
+
+section {
+    background-color: rgb(red, green, blue);
+    text-align: center;
+}
+
+/* Direct Child every a tag inside a span */
+span>a {
+    color: rgb(13, 210, 118);
+    font-weight: 900;
+    /* text-align: right; */
+    text-decoration: none;
+}
+
+/* Adjacent Element */
+h2+p {
+    background-color: blue;
+}
+
+/* ul li {
+    background-color: red;
+} */
+
+/* Attribute Selectors */
+input[type="password"] {
+    background-color: brown;
+}
+
+a[href *="T"] {
+    background-color: purple;
+}
+
+a[href$="k"] {
+    background-color: greenyellow;
+}
+
+/* Pseudo Classes */
+
+a:hover {
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+}
+
+/* Pseudo Elements */
+
+h2::first-letter {
+    color: blue;
+}
